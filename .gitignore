@@ -6,7 +6,6 @@
 .env.local
 
 # --- Kalshi Security (CRITICAL) ---
-# Never push your actual private keys
 *.key
 credentials/
 
