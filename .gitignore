@@ -1,0 +1,31 @@
+# --- IDE & System ---
+.DS_Store
+.vscode/
+.antigravity/
+.env
+.env.local
+
+# --- Kalshi Security (CRITICAL) ---
+# Never push your actual private keys
+*.key
+credentials/
+
+# --- Python / Backend ---
+**/venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+backend/.env
+
+# --- Node / Frontend ---
+**/node_modules/
+**/dist/
+frontend/.next/
+frontend/out/
+build/
+.pnpm-debug.log*
+
+# --- Database ---
+*.sqlite3
+pgdata/
